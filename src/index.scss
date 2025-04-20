@@ -1,0 +1,20 @@
+:root {
+  --bg-color: #171923;
+  --text-color: #ffff;
+  --border-color: #ffff;
+  --btn-bg: #2d3748;
+  --btn-hover: #4a5568;
+}
+
+.light-theme {
+  --bg-color: #cae4fe;
+  --text-color: #171923;
+  --border-color: #171923;
+  --btn-bg: #248dfa;
+  --btn-hover: #01417e;
+}
+body {
+  margin: 0;
+  padding: 0;
+  font-family: "Inter", sans-serif;
+}
