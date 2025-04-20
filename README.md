@@ -41,3 +41,5 @@ use ' npm run test ' for testing.
 * Could add images as React Components ( for styling purposes )
 
 * use Tailwind for styling 
+
+* could also persist theme on refresh 
