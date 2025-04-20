@@ -1,0 +1,41 @@
+.refresh-wrapper {
+  display: flex;
+  gap: 10px;
+  justify-content: center;
+  align-items: center;
+}
+
+.btnStyling {
+  width: 316px;
+  height: 52px;
+  box-sizing: border-box;
+  padding: 14px;
+  justify-content: center;
+  background-color: var(--btn-bg);
+  color: #ffffff;
+  border-radius: 6px;
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 1.5;
+  cursor: pointer;
+  transition: all 0.2s ease;
+  margin-top: 32px;
+  border: none;
+}
+
+.btnStyling:hover {
+  background-color: var(--btn-hover);
+  transform: scale(1.02);
+}
+
+.refreshIconStyle {
+  width: 20px;
+  height: 14px;
+  display: block;
+}
+
+@media (max-width: 350px) {
+  .btnStyling {
+    width: 300px;
+  }
+}
